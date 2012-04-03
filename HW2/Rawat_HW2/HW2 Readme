@@ -15,3 +15,5 @@ Part B. Draws 1000 samples from the laplace distribusion and uses a cauchy dist 
 Part C. Draws 1000 samples from laplace, but uses T test with df=2 as a reference dist. The acceptance rate is displayed as before. 
 
 Part D. Plots 5000 samples from a gaussian distribution with mean 100 and stdev 15, and a histogram of the samples compared to the normal dist.
+
+
