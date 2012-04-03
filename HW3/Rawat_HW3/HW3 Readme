@@ -1,0 +1,22 @@
+README
+
+AY 250, HW3: Computer Vision
+Radhika Rawat
+
+
+---------------------------
+There are 2 other items in this submission:
+
+The program (HW3.py)
+An example training folder
+---------------------------
+
+To run HW3.py, you'll have to enter: run HW3.py /path_of_testing_files 
+
+(The run command, a space, and then the path to the folder of the validation set)
+
+In line ___ of HW3,py, you'll have to enter the path to the training set. You can use the one I've provided in the folder or a different one, but it has to be put into the program as a path to the folder that contains the images. It is assumed that the folder contains *only* images. It is also assumed that the path contains no underscores, because underscores are used to determine the real classes of the images, for accuracy checking.
+
+The three most useful feature sets were object count, distance mapping, and local maximum determination.
+
+There are 25 features.

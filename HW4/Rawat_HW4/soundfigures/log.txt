@@ -1,0 +1,68 @@
+2012-03-04 20:52:26.226449 
+sound file: 1.aif 
+2012-03-04 20:53:29.270030 
+sound file: 1.aif 
+Notes:['C4', 'D4', 'G4', 'C5', 'D5', 'G5'] 
+ 
+2012-03-04 20:53:53.811183 
+sound file: 2.aif 
+Notes:['B3', 'F4', 'F5'] 
+ 
+2012-03-04 20:54:20.293635 
+sound file: 3.aif 
+Notes:['GS4'] 
+ 
+2012-03-04 20:55:41.658238 
+sound file: 4.aif 
+Notes:['C3', 'C4', 'DS4', 'FS4', 'C5', 'G5'] 
+ 
+2012-03-04 20:57:25.579876 
+sound file: 5.aif 
+2012-03-04 20:57:49.763797 
+sound file: 5.aif 
+Notes:['G2', 'D3', 'D4', 'G4', 'G5'] 
+ 
+2012-03-04 20:58:56.601147 
+sound file: 6.aif 
+Notes:['C5'] 
+ 
+2012-03-04 20:59:07.898127 
+sound file: 7.aif 
+Notes:['D5'] 
+ 
+2012-03-04 20:59:17.596459 
+sound file: 8.aif 
+Notes:['F4', 'F5'] 
+ 
+2012-03-04 20:59:26.453250 
+sound file: 9.aif 
+Notes:['F3', 'G3', 'G4', 'D5'] 
+ 
+2012-03-04 20:59:33.831127 
+sound file: 10.aif 
+Notes:['C4', 'DS4', 'G4', 'E5', 'G5'] 
+ 
+2012-03-04 20:59:43.147178 
+sound file: 11.aif 
+Notes:['E3', 'B3', 'F5S', 'G5S', 'B5'] 
+ 
+2012-03-04 20:59:52.341979 
+sound file: 12.aif 
+Notes:['C3', 'C4', 'G4'] 
+ 
+2012-03-04 21:01:42.356331 
+sound file: A4_PopOrgan.aif 
+Notes:['A4', 'A5'] 
+ 
+2012-03-04 21:02:02.952822 
+sound file: C4+A4_PopOrgan.aif 
+Notes:['C4', 'A4', 'C5'] 
+ 
+2012-03-04 21:02:14.542293 
+sound file: F3_PopOrgan.aif 
+Notes:['CS3', 'C4', 'F4', 'C5'] 
+ 
+2012-03-04 21:02:24.459171 
+sound file: F4_CathedralOrgan.aif 
+Notes:['F4', 'F5'] 
+ 

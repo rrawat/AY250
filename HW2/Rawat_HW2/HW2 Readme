@@ -1,0 +1,16 @@
+README 
+
+HW2
+Radhika Rawat, AY250
+
+Contains one file: HW2.3.py
+
+4 parts
+
+Part A: a one d rejection sampler that takes in a function (function is an example, in the code) and returns samples, m, and the percent of samples accepted whn comparing to a reference distribution. In this case, this is the scipy.stats.norm distribution.
+
+Part B. Draws 1000 samples from the laplace distribusion and uses a cauchy dist to evaluate it. It uses the code from part A to output samples, percent accepted, etc.
+
+Part C. Draws 1000 samples from laplace, but uses T test with df=2 as a reference dist. The acceptance rate is displayed as before. 
+
+Part D. Plots 5000 samples from a gaussian distribution with mean 100 and stdev 15, and a histogram of the samples compared to the normal dist.
