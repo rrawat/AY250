@@ -1,4 +1,4 @@
-Readme
+README
 
 HW 6, AY 250 
 Radhika Rawat
