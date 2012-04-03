@@ -4,6 +4,7 @@ Homework 1 - due 2-05-12
 Radhika Rawat
 AY 250
 
+
 Files:
 
 Part 1: Recreate an old figure
@@ -25,6 +26,8 @@ Part 2: Reproduce the NY Stocks Plot
 	
 	
 	#Note: the size of the window has to be adjusted, but once the user drags the window appropriately, everything else should work.
+
+
 Part 3: General Brushing Code
 	
 	3_brushing.py		#code
