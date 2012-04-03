@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+
+
+
+
+{% block body %}
+<br>
+Enter an SQL query:
+<br>
+<br>
+Formatting must be in SQL syntax. Entries must be found from "bibtex_Bibtex_Entry". 
+<br>
+<br>
+Example queries:
+<br>
+SELECT * FROM bibtex_BibtexEntry <br>
+SELECT * FROM bibtex_BibtexEntry where Pages = "515-520"<br>
+
+<!-- e.g.<br>
+/queryresultspg?query=SELECT+*+FROM+bibtex_BibtexEntry
+<br>
+/queryresultspg?query=SELECT+*+FROM+bibtex_BibtexEntry%20where%20Pages%20=%20"515-520
+<br> -->
+
+
+
+<br>
+<form action='/queryresultspg'>
+	
+	Query: <input type="text" name="query" />
+	<input type="submit" />
+	
+	
+</form>
+
+<br>
+<br>
+<br>
+
+	<br>
+	{% for result in resultlist %}
+		<div style='background:greenyellow;'>
+		<br>
+		Title: {{ result.Title }}
+		<br>
+		Author: {{ result.Author }}
+		<br>
+		DOI: {{ result.Doi }}
+		<br>
+		Adsnote: {{ result.Adsnote }}
+		<br>
+		Adsurl: {{ result.Adsurl }}
+		<br>
+		Date Modified: {{result.Date_Modified}}<br>
+		Date Added: {{result.Date_Added}}<br>
+		Journal: {{result.Journal}}<br>
+		Month: {{result.Month}}<br>
+		Pages: {{result.Pages}}<br>
+		Volume: {{result.Volume}}<br>
+		Year: {{result.Year}}<br>
+		Editor: {{result.Editor}}<br>
+		Book Title: {{result.Booktitle}}<br>	
+		Keywords: {{result.Keywords}}<br>
+		
+		</div>
+
+		
+		<br><br>
+	{% endfor %}
+
+{% endblock %}

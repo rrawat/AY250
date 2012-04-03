@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block body %}
+<br>
+Upload a Bibtex file:
+<br>
+
+<style>
+
+.off{
+	position:relative;
+	height:22px;
+	overflow:none;
+}
+
+.hidden{
+	visibility:hidden;
+}
+</style>
+
+<form method="post" ENCTYPE="multipart/form-data" action='/bibtexprocessing'>
+	{% csrf_token %}
+	<br>
+	<br>
+	Name your collection: <input type="text" name="collection"/> <br>
+	<br>
+	Choose a .bib file: <input type= "file" name= "bibtexfile"/>
+	<input type="submit"/>
+		
+</form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+	{% for collection in collections %}
+			
+		<div style="background:silver; margin:20px; position:relative" class="collection off">	
+			Collection: {{ collection.name }}
+			<br><br><br>
+			{% for n in collection.entries.all %}
+				<div style="background: greenyellow; position:relative; margin:2px;" class="entry hidden">
+				Title: {{n.Title}}<br>
+				Author:{{n.Author}} <br>
+				DOI:{{n.Doi}}<br>
+				Adsnote: {{n.Adsnote}}<br>
+				Adsurl: {{n.Adsurl}}<br>
+				Date Modified: {{n.Date_Modified}}<br>
+				Date Added: {{n.Date_Added}}<br>
+				Journal={{n.Journal}}<br>
+				Month={{n.Month}}<br>
+				Pages={{n.Pages}}<br>
+				Volume={{n.Volume}}<br>
+				Year={{n.Year}}<br>
+				Editor={{n.Editor}}<br>
+				Booktitle={{n.Booktitle}}<br>	
+				Keywords={{n.Keywords}}<br>
+
+
+
+				</div>
+				<br>
+			{%endfor%}
+			<br><br><br>
+		</div>
+		{% endfor %}
+	
+<script>
+$(".collection").click( function(){
+
+	$(this).toggleClass("off");
+	$(this).children().toggleClass("hidden");
+}
+)
+
+</script>
+{% endblock %}
