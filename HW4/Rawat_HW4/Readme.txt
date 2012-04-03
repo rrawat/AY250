@@ -1,5 +1,4 @@
 README
-
 3-4-12: HW4, AY 250, Radhika Rawat
 
 3 files: 
