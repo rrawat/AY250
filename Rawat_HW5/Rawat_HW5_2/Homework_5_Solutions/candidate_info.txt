@@ -1,0 +1,71 @@
+1	Allen_West	1961-02-07	Republican	Atlanta	Georgia	Allen_West.jpg
+2	Barack_Obama	1961-08-04	Democrat	Honolulu	Hawaii	Barack_Obama.jpg
+3	Bill_McCollum	1944-07-12	Republican	Brooksville	Florida	Bill_McCollum.jpg
+4	Bob_Corker	1952-08-24	Republican	Orangeburg	South Carolina	Bob_Corker.jpg
+5	Bob_McDonnell	1954-06-15	Republican	Philadelphia	Pennsylvania	Bob_McDonnell.jpg
+6	Bobby_Jindal	1971-06-10	Republican	Baton Rouge	Louisiana	Bobby_Jindal.jpg
+7	Brian_Sandoval	1963-08-05	Republican	Redding	California	Brian_Sandoval.jpg
+8	Buddy_Roemer	1943-10-04	Democrat	Shreveport	Louisiana	Buddy_Roemer.jpg
+9	Carly_Fiorina	1954-09-06	Republican	Austin	Texas	Carly_Fiorina.jpg
+10	Cathy_McMorris_Rodgers	1969-05-22	Republican	Salem	Oregon	Cathy_McMorris_Rodgers.jpg
+11	Charlie_Crist	1956-07-24	Independent	Altoona	Pennsylvania	Charlie_Crist.jpg
+12	Chris_Christie	1962-09-06	Republican	Newark	New Jersey	Chris_Christie.jpg
+13	Clarence_Thomas	1948-06-23	Republican	Pin Point	Georgia	Clarence_Thomas.jpg
+14	Colin_Powell	1937-04-05	Republican	New York City	New York	Colin_Powell.jpg
+15	Condoleezza_Rice	1954-11-14	Republican	Birmingham	Alabama	Condoleezza_Rice.jpg
+16	Dave_Heineman	1948-05-12	Republican	Falls City	Nebraska	Dave_Heineman.jpg
+17	David_Petraeus	1952-11-07	Republican	Cornwall-on-Hudson	New York	David_Petraeus.jpg
+18	Dick_Cheney	1941-01-30	Republican	Lincoln	Nebraska	Dick_Cheney.jpg
+19	Donald_Trump	1946-06-14	Republican	Queens	New York	Donald_Trump.jpg
+20	Eric_Cantor	1963-06-06	Republican	Richmond	Virginia	Eric_Cantor.jpg
+21	Fred_Thompson	1942-08-19	Republican	Sheffield	Alabama	Fred_Thompson.jpg
+22	Gary_Johnson	1953-01-01	Republican	Minot	North Dakota	Gary_Johnson.jpg
+23	George_Pataki	1945-06-24	Republican	Peekskill	New York	George_Pataki.jpg
+24	Haley_Barbour	1947-10-22	Republican	Yazoo City	Mississippi	Haley_Barbour.jpg
+25	Herman_Cain	1945-12-13	Republican	Memphis	Tennessee	Herman_Cain.jpg
+26	Hillary_Clinton	1947-10-26	Democrat	Chicago	Illinois	Hillary_Clinton.jpg
+27	JC_Watts	1957-11-18	Republican	Eufaula	Oklahoma	JC_Watts.jpg
+28	Jeb_Bush	1953-02-11	Republican	Midland	Texas	Jeb_Bush.jpg
+29	Jim_DeMint	1951-09-02	Republican	Greenville	South Carolina	Jim_DeMint.jpg
+30	Joe_Biden	1942-11-20	Democrat	Scranton	Pennsylvania	Joe_Biden.jpg
+31	Joe_Lieberman	1942-02-24	Independent Democratic	Stamford	Connecticut	Joe_Lieberman.jpg
+32	Joe_Scarborough	1963-04-09	Republican	Atlanta	Georgia	Joe_Scarborough.jpg
+33	John_Boehner	1949-11-17	Republican	Reading	Ohio	John_Boehner.jpg
+34	John_Bolton	1948-11-20	Republican	Baltimore	Maryland	John_Bolton.jpg
+35	John_Kasich	1952-05-13	Republican	McKees Rocks	Pennsylvania	John_Kasich.jpg
+36	John_Thune	1961-01-07	Republican	Murdo	South Dakota	John_Thune.jpg
+37	Jon_Huntsman_Jr	1960-03-26	Republican	Redwood City	California	Jon_Huntsman_Jr.jpg
+38	Jon_Huntsman	1960-03-26	Republican	Redwood City	California	Jon_Huntsman.jpg
+39	Jon_Kyl	1942-04-25	Republican	Oakland	Nebraska	Jon_Kyl.jpg
+40	Judd_Gregg	1947-02-14	Republican	Nashua	New Hampshire	Judd_Gregg.jpg
+41	Kelly_Ayotte	1968-06-27	Republican	Nashua	New Hampshire	Kelly_Ayotte.jpg
+42	Lindsay_Graham	1955-07-09	Republican	Central	South Carolina	Lindsay_Graham.jpg
+43	Lou_Dobbs	1945-09-24	Republican	Childress	Texas	Lou_Dobbs.jpg
+44	Luis_Fortuno	1960-10-31	Republican	San Juan	Puerto Rico	Luis_Fortuno.jpg
+45	Marco_Rubio	1971-05-28	Republican	Miami	Florida	Marco_Rubio.jpg
+46	Mark_Sanford	1960-05-28	Republican	Fort Lauderdale	Florida	Mark_Sanford.jpg
+47	Meg_Whitman	1956-08-04	Republican	Cold Spring Harbor	New York	Meg_Whitman.jpg
+48	Michael_Bloomberg	1942-02-14	Democrat	Boston	Massachusetts	Michael_Bloomberg.jpg
+49	Michele_Bachmann	1956-04-06	Republican	Waterloo	Iowa	Michele_Bachmann.jpg
+50	Mike_Huckabee	1955-08-24	Republican	Hope	Arkansas	Mike_Huckabee.jpg
+51	Mike_Pence	1959-06-07	Republican	Columbus	Indiana	Mike_Pence.jpg
+52	Mitch_Daniels	1949-04-07	Republican	Monongahela	Pennsylvania	Mitch_Daniels.jpg
+53	Mitt_Romney	1947-03-12	Republican	Detroit	Michigan	Mitt_Romney.jpg
+54	Newt_Gingrich	1943-06-17	Republican	Harrisburg	Pennsylvania	Newt_Gingrich.jpg
+55	Nikki_Haley	1972-01-20	Republican	Bamberg	South Carolina	Nikki_Haley.jpg
+56	Pat_Toomey	1961-11-17	Republican	Providence	Rhode Island	Pat_Toomey.jpg
+57	Paul_Ryan	1970-01-29	Republican	Janesville	Wisconsin	Paul_Ryan.jpg
+58	Rand_Paul	1963-01-07	Republican	Pittsburgh	Pennsylvania	Rand_Paul.jpg
+59	Rick_Perry	1950-03-04	Republican	Paint Creek	Texas	Rick_Perry.jpg
+60	Rick_Santorum	1958-05-10	Republican	Winchester	Virginia	Rick_Santorum.jpg
+61	Rob_Portman	1955-12-19	Republican	Cincinnati	Ohio	Rob_Portman.jpg
+62	Ron_Paul	1935-08-20	Republican	Pittsburgh	Pennsylvania	Ron_Paul.jpg
+63	Roy_Moore	1947-02-11	Independent	Gadsden	Alabama	Roy_Moore.jpg
+64	Rudy_Giuliani	1944-05-28	Republican	Brooklyn	New York	Rudy_Giuliani.jpg
+65	Sarah_Palin	1964-02-11	Republican	Sandpoint	Idaho	Sarah_Palin.jpg
+66	Scott_Brown	1959-09-12	Republican	Kittery	Maine	Scott_Brown.jpg
+67	Stanley_McChrystal	1954-08-14	Republican	Fort Leavenworth	Kansas	Stanley_McChrystal.jpg
+68	Susana_Martinez	1959-07-14	Republican	El Paso	Texas	Susana_Martinez.jpg
+69	Thad_McCotter	1965-08-22	Republican	Livonia	Michigan	Thad_McCotter.jpg
+70	Tim_Pawlenty	1960-11-27	Republican	Saint Paul	Minnesota	Tim_Pawlenty.jpg
+71	Tom_Coburn	1948-03-14	Republican	Casper	Wyoming	Tom_Coburn.jpg
