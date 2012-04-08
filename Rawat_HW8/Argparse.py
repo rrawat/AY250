@@ -100,7 +100,7 @@ def date_fn(func_date, day_range, preds, plot=0):
 	
 	YYYY, M, D = func_date[0],func_date[1],func_date[2]
 	date= datetime.date (YYYY,M,D)
-	print min(day_range), max(day_range)
+
 	if date not in day_range:
 		print "Data for this candidate are only available between %s and %s . Please choose a date accordingly." %(str(min(day_range)),str(max(day_range)))
 		return

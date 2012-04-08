@@ -7,17 +7,21 @@ Radhika Rawat
 
 1. 
 
-To clone the AY250 repository, move to the desired location in your interpreter, and then type 
+All homework files have been inserted into the AY250 repository: git@github.com:rrawat/AY250.git. To clone the AY250 repository, move to the desired location in your interpreter, and then type 
 
 git clone git@github.com:rrawat/AY250.git 
 
-This will create a local clone in your active directory.
+This will create a local clone in your active directory. 
 
-All homework files have been inserted into the repository.
+2. 
 
-2. A commit log for a separate programming project has been included: commit_log.txt
+A commit log for a separate programming project has been included: commit_log.txt
 
-3. I edited the solutions to HW 5 and renamed the file "Homework_5_HW8_version.py" . It is in the directory Rawat_HW5/Rawat_HW5_2/Homework_5_Solutions. The candidate data are accessed from the text file: candidate_info.txt, instead of parsing wikipedia, for speed. When running Argparse.py, which is in the Rawat_HW8 directory, the relevant functions are imported from Homework_5_HW8_version.py, and as specified on lines 41 and 42 ofHomework_5_HW8_version.py, the path of the candidate_info text file and the candidate data are printed to make it easier to tell where the information came from. 
+3. 
+
+I edited the solutions to HW 5 and renamed the file "Homework_5_HW8_version.py" . It is in the directory Rawat_HW5/Rawat_HW5_2/Homework_5_Solutions. The candidate data are accessed from the text file: candidate_info.txt, instead of parsing wikipedia, for speed. When running Argparse.py, which is in the Rawat_HW8 directory, the relevant functions are imported from Homework_5_HW8_version.py.
+
+Upon import, as specified on lines 39 and 40 ofHomework_5_HW8_version.py, the path of the candidate_info text file and the candidate data are printed to make it easier to tell where the information came from. 
 
 Inputs to argparse should be in the format:
 

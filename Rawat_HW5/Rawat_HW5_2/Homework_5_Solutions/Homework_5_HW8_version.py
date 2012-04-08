@@ -7,11 +7,7 @@ Author: Christopher Klein
 
 ADAPTED FOR HW 8 BY RADHIKA RAWAT. 
 
-I took out irrelevant portions and adjusted the path\
- to the preduction data fit the new data in \
-AY250/Rawat_HW8. Please adjust the line "PATH_TO_AY250=" to \
-wherever you have placed the repository from git on your computer.
-
+I took out irrelevant portions and added path manipulations to access the new data (lines 25-40, 106, 127).
 
 """
 
@@ -33,16 +29,21 @@ path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if not path in sys.path:
 	sys.path.insert(1, path)
 
-PATH_TO_AY250= '/Users/radhikarawat1/Desktop/AY250' #absolute path to the folder of the repository
-	
+PATH_TO_AY250= '../../AY250'
+
 txt_path = os.path.join(path, 'Homework_5_Solutions')
 
 pred_path=os.path.join(PATH_TO_AY250, "Rawat_HW8")
-print "Location of candidate data: ", txt_path
-print "Location of prediction data: " , pred_path
+
+
+print "\n", "Location of candidate data: \n", txt_path , "\n"
+print "Location of prediction data: \n " , pred_path, "\n \n"
 
 sys.path.append(txt_path), sys.path.append(pred_path)
 
+
+
+--------------------------------------------------------------------------------
 # If the datafile candidate_info.txt is available, can use that to avoid the 
 # long/tedious wikipedia scraping. (This won't download the pictures, though.)
 use_stored_candidate_data = True
@@ -106,10 +107,8 @@ cursor.execute(sql_cmd)
 #race_prediction_data = "race_prediction_data" #"Homework_8_race_prediction_data"
 
 
-
-print "Inserting Prediction Data"
 # Date,Open,Low,High,Close,Volume
-race_prediction_data_filenames = listdir(os.path.join(pred_path, "Homework_8_race_prediction_data"))
+race_prediction_data_filenames = listdir(os.path.join(pred_path, "Homework_8_race_prediction_data")) ##### NEW PREDICTIONS
 for filename in race_prediction_data_filenames:
 
 	if filename[-4:] == ".csv":			# make sure it is a CSV file
@@ -130,7 +129,7 @@ for filename in race_prediction_data_filenames:
 		sql_cmd = """SELECT candidate_id FROM candidates WHERE name = '""" + candidate_name + """'"""
 		cursor.execute(sql_cmd)
 		candidate_id = array(cursor.fetchall())[0][0]
-		# Read in the predictions data file
+		# Read in the predictions data file                                                   ##### NEW PREDICTIONS
 		prediction_data = loadtxt(os.path.join(pred_path, "Homework_8_race_prediction_data/") + filename, 
 			skiprows=1, delimiter=",", dtype=str) 
 		for entry in prediction_data:
@@ -174,89 +173,6 @@ for filename in race_prediction_data_filenames:
 
 
 
-
-# 
-# 
-# #print "Inserting Prediction Data"
-# # Date,Open,Low,High,Close,Volume
-# race_prediction_data_filenames = listdir(os.path.join(pred_path, race_prediction_data)) #
-# for filename in race_prediction_data_filenames:
-#	if filename[-4:] == ".csv":			# make sure it is a CSV file
-#		race_code = filename.split("_")[-1].split(".")[0]
-#		# We assign the correct race_id by the code in the filename.
-#		race_id = 0
-#		if race_code == "RepNom": race_id = 1
-#		if race_code == "PresElect": race_id = 2
-#		if race_code == "RepVPNom": race_id = 3
-#		# Extract the candidate_name the same way as before.
-#		candidate_name_list = filename.split("_")[:-1]
-#		candidate_name = ""
-#		for fraction in candidate_name_list:
-#			candidate_name += fraction + "_"
-#		candidate_name = candidate_name[:-1]
-#		# Use the candidate_name to query the candidates table and get the 
-#		# candidate_id
-#		sql_cmd = """SELECT candidate_id FROM candidates WHERE name = '""" + candidate_name + """'"""
-#		cursor.execute(sql_cmd)
-#		#candidate_id = array(cursor.fetchall())[0][0]
-#		
-#		#################################################
-#		#################################################
-#		#################################################
-#		#################################################
-#		#################################################
-#		#################################################
-#		print cursor.fetchall()
-#		
-#		
-#		raise()
-#		
-#		
-#		
-#		
-#		
-#		# Read in the predictions data file
-#		prediction_data = loadtxt(os.path.join(pred_path,race_prediction_data, "/") + filename, 
-#			skiprows=1, delimiter=",", dtype=str) 
-#		for entry in prediction_data:
-#			month = entry[0].split()[0].lstrip('"')
-#			# Need to convert the abbreviated month into the string number.
-#			month_num = "0"
-#			if month == "Jan": month_num = "1"
-#			if month == "Feb": month_num = "2"
-#			if month == "Mar": month_num = "3"
-#			if month == "Apr": month_num = "4"
-#			if month == "May": month_num = "5"
-#			if month == "Jun": month_num = "6"
-#			if month == "Jul": month_num = "7"
-#			if month == "Aug": month_num = "8"
-#			if month == "Sep": month_num = "9"
-#			if month == "Oct": month_num = "10"
-#			if month == "Nov": month_num = "11"
-#			if month == "Dec": month_num = "12"
-#			day = entry[0].split()[1]
-#			year = entry[1].lstrip().rstrip('"')
-#			# closing_date format is year-month-day
-#			closing_date = year + "-" + month_num + "-" + day
-#			open_value = entry[2]
-#			low_value = entry[3]
-#			high_value = entry[4]
-#			close_value = entry[5]
-#			volume = entry[6]
-#			data = (race_id, candidate_id, closing_date, open_value, low_value, 
-#				high_value, close_value, volume)
-#			sql_cmd = ("""INSERT INTO predictions (
-#						race_id,
-#						candidate_id,
-#						closing_date,
-#						open_value,
-#						low_value,
-#						high_value,
-#						close_value,
-#						volume) VALUES """ + str(data))
-#			cursor.execute(sql_cmd)
-
-
 # ------------------------	  PLOTS	  ------------------------------------------
 # Now we are ready to answer the two plotting questions.
 
@@ -281,10 +197,10 @@ def prediction_history(q_candidate_name, q_race_id, cursor):
 	days = []
 	predictions = []
 	for entry in db_info:
-		#print 2
+
 		prediction = float(entry[2])
 		predictions.append(prediction)
-		#print predictions
+
 		year_num = int(entry[3].split("-")[0])
 		month_num = int(entry[3].split("-")[1])
 		day_num = int(entry[3].split("-")[2])
@@ -296,17 +212,11 @@ def prediction_history(q_candidate_name, q_race_id, cursor):
 # For question (f), we look at the Presidential Election predictions and 
 # compare P(Obama Wins) vs 1-P(anyone else wins).
 obama_days, obama_predictions = prediction_history("Barack_Obama", "2", cursor)
-#return obama_days, obama_predictions
+
+
+#define function to get imported for HW 8
 
 def hw8(candidate):
-	""" candidate format must be "Barack_Obama" """
+	""" returns date range, prediction history for a given candidate. Candidate format must be "Barack_Obama" """
 	return prediction_history(candidate, "2", cursor)
 
-
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
-###########################################################
