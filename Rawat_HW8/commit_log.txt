@@ -1,0 +1,125 @@
+slo-76-139:AY250 radhikarawat1$ git log
+commit  2g85e6591e1kxg82mn52oq918cf405b635fadb1
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sun Apr 8 16:27:05 2012 -0700
+
+     added copyright text, popup link to blog
+
+commit 02cef52dbfe34cef8aob8k2ndu738e3672d31f28
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sun Apr 8 16:04:35 2012 -0700
+
+    formatted menu bar, added background
+
+commit chb6as4eab88nmee77asuw96d95bs447e70ff43c
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sun Apr 8 14:12:28 2012 -0700
+
+    created links to website, about pg, history
+
+commit 688e42dc4a99jwn7h822b7wnrpa72mfa2n4h1ojb
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sun Apr 8 13:59:18 2012 -0700
+
+    Added logo image
+
+commit c44e6541a5app2j459akt24u7skh156d758906fw
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sun Apr 8 13:48:38 2012 -0700
+
+    Corrected spelling, grammar in text blocks
+
+commit ag8ns6gl2fb5c765e9fe4dbac5ak3n9skqf7d10b
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sat Apr 7 10:10:01 2012 -0700
+
+    Fixed placement issues with sorting buttons
+
+commit 19ea19msneyv2jrb8sjtn28kfjs72mdb81kl1ab3
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sat Apr 7 09:48:52 2012 -0700
+
+    created sorting buttons:proximity,type,convenience, etc.
+
+commit 5gmewf95ed347b251ff3fang1e5g7edc76529508
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Sat Apr 7 09:28:28 2012 -0700
+
+    began reformatting page: color, font, arrangement
+
+commit j9a32c9210293eae7951cacf85a21fd21ff8cf56
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 21:50:45 2012 -0700
+
+    updated location names, addresses, and contact info
+
+commit 02cas88qn1bficef8db43c97a1738e3672d31f28
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 20:45:18 2012 -0700
+
+    added all seasons of products
+
+commit 07fsc5bkky7329e7796d95b447e70f2464b0443c
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 19:55:25 2012 -0700
+
+    added all product types
+
+commit g89e4gdc4a1957d13883b2fecdd53c10cef22ffb
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 19:42:56 2012 -0700
+
+    saved screenshot of mapping feature
+
+commit n91nf7ahm2ialg381bd0f43fcqru72mod75906f4
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 19:34:58 2012 -0700
+
+    changed colors and formatted map for web view
+
+commit fh81mn73fb5c765e9fe4dbac5c15fdc7d3rf310b
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 12:56:02 2012 -0700
+
+    added mapping feature with interactive mouseover to display product types
+
+commit 8hef9c9d106ak28fn2orj3ebd603a4e65faj2bb3
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Fri Apr 6 12:15:52 2012 -0700
+
+    locations field: began functionality to display types of products at each location, uncommented map view: do this next
+
+commit 9e9ne92dc357b251guw8hmq53d4f7edc76529508
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Wed Apr 4 19:12:43 2012 -0700
+
+    added quart images 
+
+commit 8c4ddc9210293eae7951cacf85a21fd21ff8cf56
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Wed Apr 4 12:14:10 2012 -0700
+
+    updated ingredients field on mix labels
+:
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Wed Apr 4 10:25:04 2012 -0700
+
+     Generalized descriptions from mix to all products
+
+commit 02cef52dbfe34cef8db41h8cka7d8e3672d31f28
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Wed Apr 4 09:34:12 2012 -0700
+
+    Added blend descriptions for mix
+
+commit b5db388307f89f13d90005590d32cd5e4cdc2f77
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Tue Apr 3 20:35:02 2012 -0700
+
+    Added seasonal product info
+
+commit 7490blm9wnnqkg7g01n7lkf6cc8218b2d7d32dad
+Author: Radhika Rawat <rawat.radhika@gmail.com>
+Date:   Mon Apr 2 17:23:18 2012 -0700
+
+    initiating git 
