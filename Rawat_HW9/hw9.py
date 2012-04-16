@@ -32,7 +32,7 @@ def multiprocessing_method(n_of_darts, n_of_pools = 10):
 	Pool_time = 0
 	
 	pool = Pool(processes=n_of_pools)  
-	darts_per_pool = darts/n_of_pools
+	darts_per_pool = n_of_darts/n_of_pools
 
 	start=time()
 	result1 = pool.map_async(dart_algorithm, [darts_per_pool])
@@ -62,7 +62,7 @@ def multiprocessing_method(n_of_darts, n_of_pools = 10):
 	return Pool_time
 	
 #--------------------------------- IPcluster Method ---------------------------------	
-def sim_for_IP(numn_of_darts_of_throws):
+def sim_for_IP(num_of_throws):
 	'''Does generally the same thing as the dart_algorithm function, but imports the modules \
 	as is required for the IPcluster method. Takes in the number of darts thrown and returns \
 	the number of darts in the circle.'''
