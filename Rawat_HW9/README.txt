@@ -23,8 +23,7 @@ implements it
 3. using IPclusters to parallelize.
 
 The run times are measured as the number of darts increases from 10 to 
-10^6, by factors of 10. If the accuracy of the pi approximation is of
-interest, uncomment lines 61, 97, and 115
+10^6, by factors of 10. 
 
 To avoid errors, restart ipython between every run of the program. You may 
 otherwise encounter "OSError: [Errno 24] Too many open files"
